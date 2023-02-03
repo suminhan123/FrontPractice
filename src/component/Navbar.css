@@ -1,0 +1,25 @@
+.navbar {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex:0.2;
+    flex-direction: column;
+    align-items: center;
+    left:0;
+    background-color: rgb(137, 171, 189);
+    position: fixed;
+    z-index:100;
+}
+.navbarOption {
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.navbarOption > h5 {
+    margin-top:5px;
+}
+.navbarOption > .MuiSvgIcon-root {
+    width: 55px;
+    transform: scale(1.6);
+}

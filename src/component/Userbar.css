@@ -1,0 +1,32 @@
+.userbar {
+    flex:0.2;
+    background-color: rgb(245, 245, 245);
+    padding: 15px;
+    flex-direction: column;
+}
+.userbarprofile > h3 {
+    border-bottom: 2px solid rgb(214, 214, 214);
+    margin-top: 5px;
+}
+.userbarprofile > img {
+    height: 130px;
+    width: 130px;
+}
+.userbarsetting {
+    display: flex;
+    align-items: center;
+}
+.userbaricons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userbaricon {
+    display: flex;
+    align-items: center;
+    padding:5px;
+}
+.userbarcount {
+    margin-right: 5px;
+    color: rgb(83, 120, 191);
+}

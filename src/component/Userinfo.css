@@ -1,0 +1,19 @@
+.userInfo {
+    display:flex;
+    flex-direction: column;
+    flex:0.8;
+    background-color: white;
+}
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.userinfologo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.userposts {
+    display: flex;
+}
