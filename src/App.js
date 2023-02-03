@@ -7,7 +7,7 @@ import Mypage from './component/Mypage';
 function App() {
   return (
     <div className="App">
-      <Board />
+      <Login />
     </div>
   );
 }
